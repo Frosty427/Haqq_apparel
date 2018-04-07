@@ -28,7 +28,8 @@ a.nav-link:hover {
 }
 
 .img-height {
-  height: 300px;
+  height: 500px;
+  max-width: 100%;
 }
 
 
@@ -36,6 +37,12 @@ a.nav-link:hover {
   width: 2000px;
   max-width: 100%;
   max-height:  550px;
+}
+
+
+.carousel-img {
+  width: 820px;
+  height: 550px;
 }
 
 .main-div {
@@ -67,20 +74,40 @@ a:hover {
         margin-left: 0;
     }
 
-    .carousel-control-prev {
-      background-color: #f03000;
-    }
+}
 
-    .carousel-control-next {
-      background-color: #f03000;
+@media only screen and (min-width: 1001px) {
+  .img-height {
+    height: 300px;
+    max-width: 100%;
+  }
+
+}
+@media only screen and (max-width: 450px) {
+
+    .carousel-img {
+      max-width: 100%;
+      max-height: 265px;
+    }
+}
+@media only screen and (max-width: 770px) {
+
+    .carousel-img {
+      max-width: 100%;
+      max-height: 265px;
     }
 }
 
 .carousel {
   width: 100%;
-  border: 2px white solid;
+  border: none;
 }
 footer {
   background: white;
   color: black !important;
+}
+
+.carousel-indicators li {
+    background-color: #f03000;
+    border: 1px solid black;
 }
