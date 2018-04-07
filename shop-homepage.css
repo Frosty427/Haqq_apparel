@@ -82,5 +82,5 @@ a:hover {
 }
 footer {
   background: white;
-  color: black;
+  color: black !important;
 }

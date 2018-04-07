@@ -1,0 +1,104 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+
+body {
+  font-family: 'Righteous', cursive;
+  background: #f03000 !important;
+}
+
+
+.navbar {
+  background: white !important;
+
+}
+
+a.nav-link {
+  color: black;
+  margin-right: 10px;
+  transition: 0.5s;
+}
+
+a.nav-link:hover {
+  color: white !important;
+  background: #f03000 !important;
+  transition: 0.5s;
+}
+
+.img-height {
+  height: 300px;
+}
+
+
+.carousel-img {
+  width: 2000px;
+  max-width: 100%;
+  max-height:  550px;
+}
+
+
+.carousel-img {
+  width: 820px;
+  height: 550px;
+}
+
+.main-div {
+  margin-left: 110px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.crd {
+  color: black !important;
+  font-size: 15px;
+  transition: 0.5s
+}
+
+.crd:hover {
+  color: #f03000 !important;
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 1000px) {
+    .main-div {
+        margin-left: 0;
+    }
+
+}
+@media only screen and (max-width: 450px) {
+
+    .carousel-img {
+      max-width: 100%;
+      max-height: 265px;
+    }
+}
+@media only screen and (max-width: 770px) {
+
+    .carousel-img {
+      max-width: 100%;
+      max-height: 265px;
+    }
+}
+
+.carousel {
+  width: 100%;
+  border: none;
+}
+footer {
+  background: white;
+  color: black !important;
+}
+
+.carousel-indicators li {
+    background-color: #f03000;
+    border: 1px solid black;
+}
