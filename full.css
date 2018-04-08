@@ -1,17 +1,17 @@
 /*!
- * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Start Bootstrap - Full (https://startbootstrap.com/template-overviews/full)
  * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full/blob/master/LICENSE)
  */
 
 body {
-   font-family: 'Righteous', cursive;
-   background: url('https://wallpapercave.com/wp/84aFr0X.jpg') no-repeat center center fixed;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   background-size: cover;
-   -o-background-size: cover;
- }
+  background: url('https://wallpapercave.com/wp/84aFr0X.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  font-family: 'Righteous', cursive;
+}
 
 
 .navbar {
@@ -32,7 +32,7 @@ a.nav-link:hover {
 }
 
 .img-height {
-  height: 500px;
+  height: 550px;
   max-width: 100%;
 }
 
