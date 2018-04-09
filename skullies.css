@@ -27,7 +27,7 @@ a.nav-link {
 
 a.nav-link:hover {
   color: white !important;
-  background: #f03000 !important;
+  background: black !important;
   transition: 0.5s;
 }
 
