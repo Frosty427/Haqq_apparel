@@ -115,3 +115,14 @@ footer {
     background-color: #f03000;
     border: 1px solid black;
 }
+
+.welcome-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.h1-1 {
+  color: white;
+}
